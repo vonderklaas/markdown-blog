@@ -14,11 +14,6 @@ export const Header = () => {
             blog
           </Link>
         </li>
-        <li>
-          <Link href='/about' className='text-gray-800 font-medium mr-10'>
-            about
-          </Link>
-        </li>
       </ul>
     </header>
   );

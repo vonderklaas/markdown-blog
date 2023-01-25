@@ -17,7 +17,7 @@ const getInitialBlog = async (slug: string) => {
   return blog;
 };
 
-const BlogDetailsPage: NextPage<BlogDetailProps> = ({ params }) => {
+const Page: NextPage<BlogDetailProps> = ({ params }) => {
   const blog = use(getInitialBlog(params.slug));
 
   return (
@@ -39,4 +39,4 @@ export function generateStaticParams() {
   });
 }
 
-export default BlogDetailsPage;
+export default Page;

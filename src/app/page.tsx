@@ -1,11 +1,7 @@
 import { NextPage } from 'next';
 
-const Page: NextPage = () => {
-  return (
-    <main>
-      <h1 className='text-3xl font-bold underline'>Hello world!</h1>
-    </main>
-  );
+const HomePage: NextPage = () => {
+  return <div>Home</div>;
 };
 
-export default Page;
+export default HomePage;

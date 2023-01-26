@@ -1,17 +1,19 @@
 ---
-title: Web Development & Code 101 - Full Guide [2022]
-description: Learn programming in JS language, HTML, and CSS. Create a Web Application made in React JS. The path to the final project includes many assignments, code exercises, and challenges.
-author: Filip Jerga
-authorImage: https://thrangra.sirv.com/Course_logo%20copy.jpg
+title: Web Development Basics [2023]
+description: Learn web development and better understand the fundamentals of how programming works
+author: Nick Garbalau
+authorImage: https://avatars.githubusercontent.com/u/53371076?v=4
 coverImage: https://thrangra.sirv.com/Course_logo%20copy.jpg
-date: '2022-12-12'
+date: '26 Jan 2023'
 ---
 
-**What is Javascript?**
+&nbsp;
 
-JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. — you can bet that JavaScript is probably involved.
+## What is Javascript?
 
-**What are you going to work on?**
+JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D / 3D graphics, scrolling video jukeboxes, etc. — you can bet that JavaScript is probably involved.
+
+## What are you going to work on?
 
 In this course, we will cover six big topic groups. Every section contains a lot of assignments and code exercises.
 
@@ -19,7 +21,7 @@ The final project is a web application to display products for users to buy. For
 
 You will see how your application evolves, what techniques are required, and how everything connects in the end. You will get a complete understanding of the programming process.
 
-**1\. JS Basics**
+**1\. JavaScript Basics**
 
 In this part, you will learn the basics in the Javascript programming language, but you will also get programmatic thinking that can help you start with any programming language.
 
@@ -46,7 +48,7 @@ To make the website look professional, you need to apply "style." In this sectio
 
 You will now learn how to use the two most used stylings: flex and grid.
 
-**4\. HTML + JS**
+**4\. Combine Tools Together**
 
 The central part of modern frameworks like Angular, Vue, or React is to create seamless interaction of JS with HTML without you even noticing.
 
@@ -60,23 +62,21 @@ The main topics of this section are:
 
 - ES and Common modules
 
-**5\. Web server + Webpack**
+**5\. Adding Server**
 
-In this part, we will first cover communication on the internet from the perspective of client->server. You will learn how your computer requests the remote server to display any website on the internet.
+In this part, we will first cover communication on the internet from the perspective of client-server. You will learn how your computer requests the remote server to display any website on the internet.
 
 Then we will create our custom Web Server, which will serve our HTML project, which we created in the sections before.
 
 Later in the section, we will dive into Webpack. Webpack is a bundler, and we will use it to bundle our javascript code together. You will learn how to write a javascript, which was impossible to write before.
 
-- client->sever, servers
+- client-sever, servers
 - Node JS, Webpack,
 
-**6. React JS**
+**6. Finally, React.js**
 
 The final part of this course will cover React JS library. You will learn to use React JS to create web applications with ease. You will create a final version of your web app. In the end, everything will connect, and you will understand how React JS works.
 
 - React JS
 - Hooks, State
 - Reactivity
-
-It will be a long journey, but you will become developers in the end.

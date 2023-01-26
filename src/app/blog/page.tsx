@@ -1,4 +1,5 @@
-import { getBlogs, shortify } from '@/lib/blogs';
+import { getBlogs } from '@/lib/blogs';
+import { shortify } from '@/helpers';
 import { NextPage } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -23,15 +24,19 @@ const Page: NextPage = () => {
             <Image
               width={100}
               height={100}
+              unoptimized={true}
               src={blog.coverImage}
               alt={blog.title}
-              className='h-full w-full object-cover object-center lg:h-full lg:w-full'
+              className='h-full w-full object-cover lg:h-full lg:w-full'
             />
           </div>
           <div className='mt-4 flex flex-col'>
             <h3 className='text-sm text-gray-700'>{blog.title}</h3>
-            <p className='text-sm font-medium text-gray-900'>
+            <p className='text-sm text-gray-900 font-medium mt-4'>
               {shortify(blog.description, 150)}
+            </p>
+            <p className='text-sm text-gray-900 font-medium mt-4'>
+              {blog.author}, {blog.date}
             </p>
           </div>
         </Link>

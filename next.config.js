@@ -5,7 +5,13 @@ const nextConfig = {
   },
   images: {
     dangerouslyAllowSVG: true,
-    domains: ['images.unsplash.com', 'thrangra.sirv.com'],
+    domains: [
+      'www.markdownguide.org',
+      'avatars.githubusercontent.com',
+      'www.patterns.dev',
+      'play-lh.googleusercontent.com',
+      'thrangra.sirv.com',
+    ],
   },
 };
 

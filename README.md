@@ -1,6 +1,6 @@
 ### Next.js Markdown Blog
 
-This is a Next.js based markdown-first blog. You can add modifications to /content folder to add more or change existing articles. Handy helper functions help turn markdown into HTML
+I've created a blog where you can parse Markdown files into HTML, and by that create posts and articles. The website is running on Next.js + TypeScript, along with some parsing libraries
 
 ### How to run?
 

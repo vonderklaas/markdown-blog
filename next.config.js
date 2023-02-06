@@ -11,6 +11,7 @@ const nextConfig = {
       'www.patterns.dev',
       'play-lh.googleusercontent.com',
       'thrangra.sirv.com',
+      'blog.logrocket.com',
     ],
   },
 };

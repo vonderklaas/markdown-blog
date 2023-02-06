@@ -1,7 +1,6 @@
 import { getBlogBySlug, getBlogs } from '@/lib/blogs';
-import { NextPage } from 'next';
 import { ParsedUrlQuery } from 'querystring';
-import { use } from 'react';
+import { FC, use } from 'react';
 import Image from 'next/image';
 
 interface Params extends ParsedUrlQuery {
@@ -26,7 +25,7 @@ export const generateStaticParams = () => {
   });
 };
 
-const Page: NextPage<BlogDetailProps> = ({ params }) => {
+const Page: FC<BlogDetailProps> = ({ params }) => {
   const blog = use(getInitialBlog(params.slug));
 
   return (

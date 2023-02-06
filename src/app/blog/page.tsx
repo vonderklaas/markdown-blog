@@ -1,6 +1,6 @@
 import { getBlogs } from '@/lib/blogs';
 import { shortify } from '@/helpers';
-import { NextPage } from 'next';
+import { FC } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { use } from 'react';
@@ -10,7 +10,7 @@ const getInitialBlogs = async () => {
   return blogs;
 };
 
-const Page: NextPage = () => {
+const Page: FC = () => {
   const blogs = use(getInitialBlogs());
   return (
     <div className='mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8'>

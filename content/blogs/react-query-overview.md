@@ -4,7 +4,7 @@ description: Практичный взгляд на React Query и его осо
 author: Dominik Dorfmeister
 authorImage: https://avatars.githubusercontent.com/u/1021430?v=4
 coverImage: https://blog.logrocket.com/wp-content/uploads/2021/02/reactquery3.png
-date: 'Feb 6 2023'
+date: '16 Jan 2020'
 ---
 
 Оригинал - https://tkdodo.eu/blog/practical-react-query
@@ -272,7 +272,7 @@ const MyForm = ({ initialData} ) => {
 
 <br>
 
-## Custom Hooks
+## Кастомные хуки
 
 Даже если это всего лишь обёртка одного вызова _useQuery_, создание пользовательского хука обычно окупается, потому что:
 
@@ -286,7 +286,9 @@ const MyForm = ({ initialData} ) => {
 
 ---
 
-Спасибо за прочтение, так или иначе я надеюсь, что эти практические советы помогут вам начать работу с React Query
+Спасибо за чтение этой статьи, так или иначе я надеюсь, что эти практические советы помогут вам начать работу с React Query, и начать применять его на своих проектах.
+
+P.S
 
 Напомню, что эта статья является переводом статьи https://tkdodo.eu/blog/practical-react-query
 

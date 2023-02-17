@@ -7,8 +7,6 @@ coverImage: https://play-lh.googleusercontent.com/HUuQc4Zpl6x7fUyX-jFMmcuUbW77RE
 date: '26 Jan 2023'
 ---
 
-&nbsp;
-
 ## Code
 
 ```

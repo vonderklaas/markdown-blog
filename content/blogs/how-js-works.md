@@ -1,15 +1,11 @@
 ---
-title: Behind complex JS apps
-description: Take a look behind curtains of JS apps
+title: Behind Complex JS
+description: Let's take a look behind curtains of complex JS applications
 author: Nick Garbalau
 authorImage: https://avatars.githubusercontent.com/u/53371076?v=4
 coverImage: https://miro.medium.com/max/1400/1*LyZcwuLWv2FArOumCxobpA.png
 date: '17 Feb 2023'
 ---
-
-&nbsp;
-
-# Behind complex JS apps
 
 ## Prelude
 

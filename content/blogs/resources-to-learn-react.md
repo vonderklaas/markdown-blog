@@ -7,8 +7,6 @@ coverImage: https://www.patterns.dev/img/reactjs/react-logo@3x.svg
 date: '26 Jan 2023'
 ---
 
-&nbsp;
-
 ## Beginning
 
 If you are a JavaScript or React enthusiast and user, then you would most certainly be familiar with Next.js. A trendy React framework, Next.js is the dearest of all web development news portals out there.

@@ -13,8 +13,6 @@ date: '16 Jan 2020'
 
 Перевел: https://github.com/garbalau-github
 
----
-
 ## Введение
 
 Когда GraphQL и особенно [Apollo Client](https://www.apollographql.com/docs/react/)

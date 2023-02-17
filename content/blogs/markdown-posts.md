@@ -7,8 +7,6 @@ coverImage: https://www.markdownguide.org/assets/images/markdown-guide-og.jpg
 date: '26 Jan 2023'
 ---
 
-&nbsp;
-
 ## Text
 
 This is basic text, nothing special

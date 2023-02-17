@@ -12,6 +12,7 @@ const nextConfig = {
       'play-lh.googleusercontent.com',
       'thrangra.sirv.com',
       'blog.logrocket.com',
+      'miro.medium.com',
     ],
   },
 };
